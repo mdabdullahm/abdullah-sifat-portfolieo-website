@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import { MoveUpRight } from "lucide-react"; // আইকনের জন্য
+import { MoveUpRight } from "lucide-react"; 
 
 const Navbar = () => {
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "#about" },
+    { name: "About", href: "/about" },
     { name: "Services", href: "#about" },
     { name: "Work", href: "#work" },
     { name: "Contact", href: "#gallery" },
