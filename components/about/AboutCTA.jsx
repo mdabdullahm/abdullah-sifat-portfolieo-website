@@ -37,7 +37,7 @@ const AboutCTA = () => {
           </h2>
 
           <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-xl mx-auto leading-relaxed">
-            আমি বর্তমানে নতুন প্রোজেক্ট এবং কোলাবরেশনের জন্য এভেইলেবল। চলুন আপনার আইডিয়া নিয়ে আলোচনা শুরু করি।
+            I am currently available for new projects and collaborations. Let's start discussing your ideas.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">

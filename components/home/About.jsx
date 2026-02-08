@@ -27,7 +27,7 @@ const About = () => {
             {/* Image Wrapper */}
             <div className="relative aspect-square overflow-hidden rounded-2xl bg-[#141414] border border-white/10">
               <img 
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" 
+                src="/home abdullah Profile.png" 
                 alt="Abdullah Sifat"
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               />

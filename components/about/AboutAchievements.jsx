@@ -38,7 +38,7 @@ const AboutAchievements = () => {
   const stats = [
     {
       label: "Project Completed",
-      value: 150,
+      value: 85,
       suffix: "+",
       icon: <Briefcase size={32} />,
     },
@@ -83,7 +83,7 @@ const AboutAchievements = () => {
                 </div>
                 
                 {/* Number */}
-                <div className="text-5xl md:text-6xl text-white mb-2 tracking-tighter">
+                <div className="text-5xl md:text-6xl font-bold text-white mb-2 tracking-tighter">
                   <StatCounter end={stat.value} />
                   <span className="text-[#FF4D21]">{stat.suffix}</span>
                 </div>

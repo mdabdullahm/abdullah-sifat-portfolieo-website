@@ -4,13 +4,10 @@ import { ArrowRight, Palette, Layout, MousePointer2 } from "lucide-react";
 import Link from "next/link";
 
 const Hero = () => {
-  // ১. স্টেট ডিক্লেয়ার করা হলো (ডিফল্টভাবে 'projects' বাটনটি একটিভ থাকবে)
   const [activeButton, setActiveButton] = useState("projects");
 
-  // কমন স্টাইল (যা দুই বাটনেই থাকবে)
   const baseStyle = "group relative px-8 py-4 rounded-2xl font-bold overflow-hidden transition-all duration-300";
   
-  // একটিভ এবং ইন-একটিভ স্টাইল
   const activeStyle = "bg-[#FF4D21] text-white hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(255,77,33,0.3)]";
   const inactiveStyle = "bg-white/5 text-white border border-white/10 hover:bg-white/10";
 
@@ -47,7 +44,7 @@ const Hero = () => {
           and modern digital experiences.
         </p>
 
-        {/* CTA Buttons - এখানে লজিক বসানো হয়েছে */}
+        {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           
           <Link href="#work">
@@ -57,7 +54,6 @@ const Hero = () => {
             >
               <span className="flex items-center gap-2">
                 View My Projects
-                {/* Arrow Icon শুধু তখনই দেখাবে বা এনিমেট করবে যখন বাটন একটিভ থাকবে (অপশনাল) */}
                 <ArrowRight size={20} className={`transition-transform ${activeButton === "projects" ? "group-hover:translate-x-1" : ""}`} />
               </span>
             </button>
