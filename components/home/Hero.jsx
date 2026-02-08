@@ -59,7 +59,7 @@ const Hero = () => {
             </button>
           </Link>
           
-          <Link href="#contact">
+          <Link href="https://wa.me/8801853191845">
             <button 
               onClick={() => setActiveButton("hire")}
               className={`${baseStyle} ${activeButton === "hire" ? activeStyle : inactiveStyle}`}

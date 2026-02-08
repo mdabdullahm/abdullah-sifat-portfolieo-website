@@ -37,21 +37,21 @@ const AboutCTA = () => {
           </h2>
 
           <p className="text-gray-400 text-lg md:text-xl mb-12 max-w-xl mx-auto leading-relaxed">
-            আমি বর্তমানে নতুন প্রোজেক্ট এবং কোলাবরেশনের জন্য এভেইলেবল। চলুন আপনার আইডিয়া নিয়ে আলোচনা শুরু করি।
+            I am currently available for new projects and collaborations. Let's start discussing your idea
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
             {/* Primary Action */}
-            <Link href="mailto:contact@sifat.com" className="w-full sm:w-auto">
+            <Link href="#" className="w-full sm:w-auto">
               <button className="w-full group bg-[#FF4D21] hover:bg-[#e6451e] text-white px-10 py-5 rounded-2xl flex items-center justify-center gap-3 font-bold text-xl transition-all duration-300 shadow-[0_10px_30px_rgba(255,77,33,0.3)] hover:-translate-y-1">
-                Hire Me Now
+                Contact Now
                 <MoveUpRight size={22} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </button>
             </Link>
 
             {/* Secondary Action */}
             <Link href="https://wa.me/yournumber" className="w-full sm:w-auto">
-              <button className="w-full bg-white/5 hover:bg-white/10 text-white border border-white/10 px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 flex items-center justify-center gap-3 hover:-translate-y-1">
+              <button className="w-full bg-[#08CB00] shadow-emerald-500 hover:shadow-2xl text-white border border-white/10 px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 flex items-center justify-center gap-3 hover:-translate-y-1">
                 <MessageCircle size={22} />
                 WhatsApp
               </button>
