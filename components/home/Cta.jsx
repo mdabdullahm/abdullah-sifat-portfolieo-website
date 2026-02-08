@@ -50,7 +50,7 @@ const AboutCTA = () => {
             </Link>
 
             {/* Secondary Action */}
-            <Link href="https://wa.me/yournumber" className="w-full sm:w-auto">
+            <Link href="https://wa.me/8801853191845" className="w-full sm:w-auto">
               <button className="w-full bg-[#08CB00] shadow-emerald-500 hover:shadow-2xl text-white border border-white/10 px-10 py-5 rounded-2xl font-bold text-xl transition-all duration-300 flex items-center justify-center gap-3 hover:-translate-y-1">
                 <MessageCircle size={22} />
                 WhatsApp
