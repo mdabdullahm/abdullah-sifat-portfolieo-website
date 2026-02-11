@@ -6,14 +6,6 @@ import Link from "next/link";
 const About = () => {
   return (
     <section id="about" className="py-24 bg-[#0A0A0A] relative overflow-hidden">
-      
-      {/* Background Matrix Grid Effect */}
-      <div className="absolute inset-0 z-0 opacity-10"
-        style={{
-          backgroundImage: 'linear-gradient(#FF4D21 1px, transparent 1px), linear-gradient(90deg, #FF4D21 1px, transparent 1px)',
-          backgroundSize: '40px 40px'
-        }}>
-      </div>
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -29,7 +21,7 @@ const About = () => {
               <img 
                 src="/home abdullah Profile.png" 
                 alt="Abdullah Sifat"
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+                className="w-full h-full object-cover hover:grayscale-0 transition-all duration-700"
               />
               {/* Overlay on hover */}
               <div className="absolute inset-0 bg-[#FF4D21]/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>

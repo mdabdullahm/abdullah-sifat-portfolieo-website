@@ -11,3 +11,13 @@ body {
 body {
   font-family: var(--font-poppins), sans-serif;
 }
+/* maush gollo */
+@media (min-width: 1024px) {
+  html, body {
+    cursor: none;
+  }
+  
+  a, button, .cursor-pointer, input, textarea {
+    cursor: none !important;
+  }
+}

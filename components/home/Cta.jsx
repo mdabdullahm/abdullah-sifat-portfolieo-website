@@ -8,12 +8,12 @@ const AboutCTA = () => {
     <section className="py-24 bg-[#0A0A0A] relative overflow-hidden">
       
       {/* Background Matrix Grid Effect */}
-      <div className="absolute inset-0 z-0 opacity-15"
+      {/* <div className="absolute inset-0 z-0 opacity-15"
         style={{
           backgroundImage: 'linear-gradient(#FF4D21 1px, transparent 1px), linear-gradient(90deg, #FF4D21 1px, transparent 1px)',
           backgroundSize: '40px 40px'
         }}>
-      </div>
+      </div> */}
 
       {/* Background Radial Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#FF4D21]/15 blur-[120px] rounded-full z-0"></div>

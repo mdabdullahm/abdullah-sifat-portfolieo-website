@@ -12,12 +12,12 @@ const Work = () => {
 
   return (
     <section id="work" className="py-20 bg-[#0A0A0A] relative overflow-hidden">
-      <div className="absolute inset-0 z-0 opacity-10"
+      {/* <div className="absolute inset-0 z-0 opacity-10"
         style={{
           backgroundImage: 'linear-gradient(#FF4D21 1px, transparent 1px), linear-gradient(90deg, #FF4D21 1px, transparent 1px)',
           backgroundSize: '40px 40px'
         }}>
-      </div>
+      </div> */}
 
       <div className="container mx-auto px-6 relative z-10">
         <div className="mb-12">

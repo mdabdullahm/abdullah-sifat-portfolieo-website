@@ -14,7 +14,7 @@ export default function Home() {
       {/* Background Decor - Matrix Grid Effect */}
       <div className="absolute inset-0 z-0 opacity-20"
         style={{
-          backgroundImage: 'linear-gradient(#10b981 1px, transparent 1px), linear-gradient(90deg, #10b981 1px, transparent 1px)',
+          backgroundImage: 'linear-gradient(#3127F5 1px, transparent 1px), linear-gradient(90deg, #3127F5 1px, transparent 1px)',
           backgroundSize: '40px 40px'
         }}>
       </div>
